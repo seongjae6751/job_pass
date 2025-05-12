@@ -10,7 +10,7 @@ import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequiredArgsConstructor
-public class EstimateController {
+public class EstimateController implements EstimateApi{
 
     private final EstimateService estimateService;
 
